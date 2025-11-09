@@ -5,6 +5,9 @@ import fs from "fs"
 const app = express()
 app.use(cors())
 
+// serve images folder (important if you use images/118.jpg)
+app.use("/images", express.static("images"))
+
 const PORT = process.env.PORT || 10000
 
 app.get("/", (req, res) => {
@@ -12,8 +15,8 @@ app.get("/", (req, res) => {
 })
 
 app.get("/items", (req, res) => {
-  const json = fs.readFileSync("./items.json", "utf8")
-  res.send(json)
+  const data = JSON.parse(fs.readFileSync("./items.json", "utf8"))
+  res.json(data) // THIS sends real JSON
 })
 
 app.listen(PORT, () => console.log("server on " + PORT))
