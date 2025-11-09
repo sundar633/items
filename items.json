@@ -101,9 +101,7 @@
   "key_features": ["quick mix","premium roast","strong aroma"],
   "ingredients": ["coffee beans"],
   "additional_details": "store dry"
-}
-
-
+},
 {
   "category": "Food Items",
   "product_name": "Saffola Oats Classic 1kg",
@@ -207,7 +205,7 @@
   "key_features": ["thick consistency","perfect with snacks","tangy taste"],
   "ingredients": ["tomato paste","sugar","salt","spices"],
   "additional_details": "store refrigerated after opening"
-}
+},
 
 {
   "category": "Chocolates",
@@ -312,7 +310,7 @@
   "key_features": ["high cocoa","less sweet","premium taste"],
   "ingredients": ["cocoa solids","cocoa butter","sugar"],
   "additional_details": "store below 24° C"
-}
+},
 {
   "category": "Chocolates",
   "product_name": "Hershey's Kisses Classic 33g",
@@ -416,7 +414,7 @@
   "key_features": ["diabetic friendly","rich cocoa","bittersweet"],
   "ingredients": ["cocoa solids","sweeteners","cocoa butter"],
   "additional_details": "store below 22° C"
-}
+},
 {
   "category": "Chocolates",
   "product_name": "Mars Chocolate Bar 51g",
