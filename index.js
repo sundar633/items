@@ -15,8 +15,13 @@ app.get("/", (req, res) => {
 })
 
 app.get("/items", (req, res) => {
-  const data = JSON.parse(fs.readFileSync("./items.json", "utf8"))
-  res.json(data) // THIS sends real JSON
+  try {
+    const data = JSON.parse(fs.readFileSync("./items.json", "utf8"))
+    res.json(data)
+  } catch (err) {
+    res.status(500).json({error: err.message})
+  }
 })
+
 
 app.listen(PORT, () => console.log("server on " + PORT))
