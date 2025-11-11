@@ -2,6 +2,7 @@
   "name": "chocolate-store-api",
   "version": "1.0.0",
   "description": "A simple Express API serving chocolate items and images.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
