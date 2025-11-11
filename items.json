@@ -33,6 +33,7 @@
         "countryOfOrigin": "India"
       }
     },
+    
     {
       "id": 2,
       "name": "Creamy Milk Chocolate Delight",
@@ -63,6 +64,38 @@
       "additionalDetails": {
         "shelfLife": "10 months",
         "manufacturer": "SweetCraft Foods Ltd.",
+        "countryOfOrigin": "India"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Daitsy White Chocolate Bar",
+      "originalPrice": 200,
+      "discountPrice": 100,
+      "quantity": "400g",
+      "rating": 3.7,
+      "images": [
+        "images/4.jpg",
+        "images/6.jpeg",
+        "images/8.jpg"
+      ],
+      "description": "A smooth and rich 70% dark chocolate bar made from premium cocoa beans. Perfect for dark chocolate lovers who crave intense flavor and velvety texture.",
+      "keyFeatures": [
+        "Made with 70% cocoa",
+        "No artificial flavors or preservatives",
+        "Sustainably sourced cocoa",
+        "Rich, smooth texture"
+      ],
+      "ingredients": [
+        "Cocoa mass",
+        "Sugar",
+        "Cocoa butter",
+        "Emulsifier (soy lecithin)",
+        "Natural vanilla extract"
+      ],
+      "additionalDetails": {
+        "shelfLife": "12 months",
+        "manufacturer": "Velvet Treats Pvt. Ltd.",
         "countryOfOrigin": "India"
       }
     }
